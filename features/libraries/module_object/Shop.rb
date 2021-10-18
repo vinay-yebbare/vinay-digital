@@ -1,0 +1,3 @@
+module Shop
+
+end
