@@ -1,0 +1,33 @@
+#default: --profile html_report
+#html_report: --format progress --format html --out=html_reports/features_report.html
+
+
+default: --profile html_report --profile json_report --profile rerun_report --profile parallel_failures --profile junit_profile
+rerunprofile: --format progress --format html --out html_rerun_reports/rerun_features_report.html --format json --out html_rerun_reports/rerun_features_report.json --format rerun --out html_rerun_reports/rerun_complete.txt  --tags ~@ignore --require features/
+parallel_rerun: --profile html_rerun_report --profile json_rerun_report  --profile parallel_rerun_failures
+
+html_report: --format progress --format html --out html_reports/Process<%= ENV['TEST_ENV_NUMBER'] %>.html --tags ~@ignore --tags ~@wip --require features/
+json_report: --format progress --format json --out html_reports/Process<%= ENV['TEST_ENV_NUMBER'] %>.json
+
+html_rerun_report: --format progress --format html --out html_rerun_reports/Process<%= ENV['TEST_ENV_NUMBER'] %>.html --tags ~@ignore --tags ~@wip --require features/ --format rerun
+json_rerun_report: --format progress --format json --out html_rerun_reports/Process<%= ENV['TEST_ENV_NUMBER'] %>.json
+
+rerun_report: --format rerun --out html_reports/rerun.log
+
+parallel_failures: --format ParallelTests::Cucumber::FailuresLogger --out html_reports/cucumber_failures.log
+parallel_rerun_failures: --format ParallelTests::Cucumber::FailuresLogger --out html_rerun_reports/cucumber_failures.log
+prod_rerun: --format progress --format html --out html_reports/cucumber_rerun_report.html --format rerun --out html_reports/rerun_failed.txt
+
+tag1: --format progress --format html --out html_reports/Tag1_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag1_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag1_cucumber_failures.log
+tag2: --format progress --format html --out html_reports/Tag2_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag2_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag2_cucumber_failures.log
+tag3: --format progress --format html --out html_reports/Tag3_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag3_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag3_cucumber_failures.log
+tag4: --format progress --format html --out html_reports/Tag4_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag4_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag4_cucumber_failures.log
+tag5: --format progress --format html --out html_reports/Tag5_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag5_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag5_cucumber_failures.log
+tag6: --format progress --format html --out html_reports/Tag6_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag6_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag6_cucumber_failures.log
+tag7: --format progress --format html --out html_reports/Tag7_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag7_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag7_cucumber_failures.log
+tag8: --format progress --format html --out html_reports/Tag8_Process<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out html_reports/Tag8_Process<%= ENV['TEST_ENV_NUMBER'] %>.json --format ParallelTests::Cucumber::FailuresLogger --out html_reports/Tag8_cucumber_failures.log
+
+#Consumer profiles
+rerun_profile: --format progress --format html --out=html_rerun_reports/features_rerun_report.html --format json --out=html_rerun_reports/features_report.json --format rerun --out=html_rerun_reports/rerun.txt  --tags ~@ignore --require features/
+simple_report: --format progress --format html --out=html_reports/features_report.html --require features/
+junit_profile: --format junit --out html_reports/
