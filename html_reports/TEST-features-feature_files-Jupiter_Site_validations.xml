@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="7" time="75.611077" name="Jupiter online portal verification">
+<testcase classname="Jupiter online portal verification" name="Verify User is able to submit feedback from contacts page successfully (outline example : | vinayone |)" time="10.148065">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+2021-10-19 01:49:20 WARN Watir [DEPRECATION] ["wait_until_present"] Watir::TextField#wait_until_present is deprecated. Use Watir::TextField#wait_until(&:present?) instead.
+2021-10-19 01:49:20 WARN Watir [DEPRECATION] ["wait_until_present"] Watir::Div#wait_until_present is deprecated. Use Watir::Div#wait_until(&:present?) instead.
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Jupiter online portal verification" name="Verify User is able to submit feedback from contacts page successfully (outline example : | vinaytwo |)" time="13.811991">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Jupiter online portal verification" name="Verify User is able to submit feedback from contacts page successfully (outline example : | vinaythree |)" time="12.913607">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Jupiter online portal verification" name="Verify User is able to submit feedback from contacts page successfully (outline example : | vinayfour |)" time="8.981423">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Jupiter online portal verification" name="Verify User is able to submit feedback from contacts page successfully (outline example : | vinayfive |)" time="14.029212">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Jupiter online portal verification" name="Verify User is able to add multiple items to cart" time="7.546691">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Jupiter online portal verification" name="Verify user to able to validate the sub-total on the cart for added products" time="8.180088">
+  <system-out>
+    <![CDATA[" Current Browser value is ::::::  :::Opening Browser now"
+"Closed Browser"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

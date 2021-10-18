@@ -1,0 +1,901 @@
+[
+  {
+    "uri": "features/feature_files/Jupiter_Site_validations.feature",
+    "id": "jupiter-online-portal-verification",
+    "keyword": "Feature",
+    "name": "Jupiter online portal verification",
+    "description": "",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@VY_test",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2752580000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4568591000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-is-able-to-submit-feedback-from-contacts-page-successfully;;2",
+        "keyword": "Scenario Outline",
+        "name": "Verify User is able to submit feedback from contacts page successfully",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test01",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"contact\" page",
+            "line": 14,
+            "output": [
+              "#/contact"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23080000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I fill all the mandatory fields for vinayone customers",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549704000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click the \"Submit\" Button",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161276000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I validate the successful submission message",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1888664000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194959000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1821912000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4540732000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-is-able-to-submit-feedback-from-contacts-page-successfully;;3",
+        "keyword": "Scenario Outline",
+        "name": "Verify User is able to submit feedback from contacts page successfully",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test01",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"contact\" page",
+            "line": 14,
+            "output": [
+              "#/contact"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28309000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I fill all the mandatory fields for vinaytwo customers",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551978000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click the \"Submit\" Button",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183035000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I validate the successful submission message",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6487260000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193033000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1796193000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4562862000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-is-able-to-submit-feedback-from-contacts-page-successfully;;4",
+        "keyword": "Scenario Outline",
+        "name": "Verify User is able to submit feedback from contacts page successfully",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test01",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"contact\" page",
+            "line": 14,
+            "output": [
+              "#/contact"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31469000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I fill all the mandatory fields for vinaythree customers",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541031000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click the \"Submit\" Button",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188477000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I validate the successful submission message",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5578511000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207589000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1800126000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4481976000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-is-able-to-submit-feedback-from-contacts-page-successfully;;5",
+        "keyword": "Scenario Outline",
+        "name": "Verify User is able to submit feedback from contacts page successfully",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test01",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"contact\" page",
+            "line": 14,
+            "output": [
+              "#/contact"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28316000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I fill all the mandatory fields for vinayfour customers",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541746000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click the \"Submit\" Button",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160381000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I validate the successful submission message",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1775234000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188545000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1721605000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4568957000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-is-able-to-submit-feedback-from-contacts-page-successfully;;6",
+        "keyword": "Scenario Outline",
+        "name": "Verify User is able to submit feedback from contacts page successfully",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test01",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"contact\" page",
+            "line": 14,
+            "output": [
+              "#/contact"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21355000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I fill all the mandatory fields for vinayfive customers",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545583000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click the \"Submit\" Button",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295551000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I validate the successful submission message",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6679411000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191327000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1707703000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4476162000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-is-able-to-add-multiple-items-to-cart",
+        "keyword": "Scenario",
+        "name": "Verify User is able to add multiple items to cart",
+        "description": "",
+        "line": 28,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test02",
+            "line": 27
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"shop\" page",
+            "line": 30,
+            "output": [
+              "#/shop"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26471000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add \"2\" item \"Funny Cow\" to the cart",
+            "line": 31,
+            "output": [
+              "Selected product cost is :- 10.99"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 579247000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add \"1\" item \"Fluffy Bunny\" to the cart",
+            "line": 32,
+            "output": [
+              "Selected product cost is :- 9.99"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207894000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"cart\" page",
+            "line": 33,
+            "output": [
+              "#/cart"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18732000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I verify added items are in the cart",
+            "line": 34,
+            "output": [
+              "validated for Funny Cow",
+              "validated for Fluffy Bunny"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333684000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188570000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "I am on Jupiter Home Page",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1800846000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on home page",
+            "line": 8,
+            "output": [
+              "URL : https://jupiter.cloud.planittesting.com/#/home"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4564157000
+            }
+          }
+        ]
+      },
+      {
+        "id": "jupiter-online-portal-verification;verify-user-to-able-to-validate-the-sub-total-on-the-cart-for-added-products",
+        "keyword": "Scenario",
+        "name": "Verify user to able to validate the sub-total on the cart for added products",
+        "description": "",
+        "line": 38,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@VY_test",
+            "line": 1
+          },
+          {
+            "name": "@VY_test03",
+            "line": 37
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"shop\" page",
+            "line": 40,
+            "output": [
+              "#/shop"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33432000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add \"2\" item \"Stuffed Frog\" to the cart",
+            "line": 41,
+            "output": [
+              "Selected product cost is :- 10.99"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585713000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add \"5\" item \"Fluffy Bunny\" to the cart",
+            "line": 42,
+            "output": [
+              "Selected product cost is :- 9.99"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337613000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I add \"3\" item \"Valentine Bear\" to the cart",
+            "line": 43,
+            "output": [
+              "Selected product cost is :- 14.99"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270288000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I navigate to the \"cart\" page",
+            "line": 44,
+            "output": [
+              "#/cart"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51075000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I verify sub-total for each product",
+            "line": 45,
+            "output": [
+              "validated for Fluffy Bunny"
+            ],
+            "match": {
+              "location": "features/step_definitions/jupiter_page_validations.rb:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318121000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211510000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
