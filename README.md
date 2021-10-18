@@ -3,7 +3,11 @@
 ### MANDATORY
 
 * `browsertype` browser name i.e., chrome , firefox. safari(in case mac) 
-
+*  The below ruby gems along with `cucumber` need to be installed.  
+```
+  rubygems, selenium/webdriver, rspec/expectations, watir, rake, pry
+   
+  ```
 
 ### Parallel test execution
 
