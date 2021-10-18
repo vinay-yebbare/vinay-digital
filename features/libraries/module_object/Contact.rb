@@ -1,7 +1,4 @@
 module Contact
-  def mega_nav_sel(type)
-    @browser.a(href: type).fire_event :click
-  end
 
   def contact_object(object, id)
     case object

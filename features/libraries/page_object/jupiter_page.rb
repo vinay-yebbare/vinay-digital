@@ -6,4 +6,8 @@ class Jupiter
   def initialize(browser)
     @browser = browser
   end
+
+  def mega_nav_sel(type)
+    @browser.a(href: type).fire_event :click
+  end
 end
